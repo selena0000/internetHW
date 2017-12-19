@@ -1,0 +1,100 @@
+body {
+  background-color: #a3d5d3;
+}
+
+.text1{
+  font-family:標楷體;
+  font-size:25px;
+  
+}
+
+.text2{
+  font-family:標楷體;
+  font-size:25px;
+  
+}
+.text3{
+  font-family:標楷體;
+  font-size:25px;
+  color:blue;
+}
+div#headtitle{
+  font-family:標楷體;
+  font-size:30;
+  text-align:center;
+}
+.content-font:hover{
+   font-size: 30px;
+  font-family:標楷體;
+  text-align:center;
+  width: 130px;
+    height: 80px;
+  line-height:80px;
+  background: #1ec7e6;
+  
+}
+.content-font{
+   font-family:標楷體;
+  text-align:center;
+  line-height:40px;
+  width:65px;
+  height:40px;
+  }
+
+.red{
+   background-color:red;
+}
+.blue{
+  
+  background-color:pink;
+}
+.yellow{
+  background-color:yellow;
+}
+.parent{ display:flex;
+   flex-direction:row-reverse;
+ justify-content:center;
+  height:100px;
+  align-items:center;
+  
+}
+
+.main_color{
+  background-color:lightgreen;
+  
+}
+
+.pink{
+   background-color:purple;
+}
+.orange{
+   background-color:brown;
+}
+.black{
+   background-color:black;
+}
+
+.simple-font{
+  color:white;
+  text-align:center;
+}
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.location{
+  text-align:center;
+}
+.location1{
+  transform:translateX(42%);
+}
